@@ -5,7 +5,7 @@ import Toast from '@/components/Toast';
 import { ShoppingBag } from 'lucide-react';
 
 const PRODUCTS = [
-  { id: 1, name: 'Organic Cotton Oversized Tee', price: 149, image: '/images/prod-1.jpg', category: 'men' as const, color: '#0a0a0a', colorName: 'Preto' },
+  { id: 1, name: 'Organic Cotton Oversized Tee', price: 149, image: 'TwentyCompany/images/prod-1.jpg', category: 'men' as const, color: '#0a0a0a', colorName: 'Preto' },
   { id: 2, name: 'Heavyweight Logo Hoodie', price: 289, image: '/images/prod-2.jpg', category: 'men' as const, color: '#0a0a0a', colorName: 'Preto' },
   { id: 3, name: 'Relaxed Fit Sweatpants', price: 229, image: '/images/prod-3.jpg', category: 'men' as const, color: '#808080', colorName: 'Cinza' },
   { id: 4, name: 'Minimalist Backpack', price: 349, image: '/images/prod-4.jpg', category: 'accessories' as const, color: '#0a0a0a', colorName: 'Preto' },
