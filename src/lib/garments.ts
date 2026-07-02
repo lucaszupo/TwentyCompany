@@ -28,7 +28,7 @@ export interface Garment {
 // Detalhe (gola, costuras) — claro sobre peça escura, escuro sobre peça clara
 const detail = (isLight: boolean) =>
   isLight ? 'rgba(0,0,0,0.12)' : 'rgba(255,255,255,0.10)';
-const shade = 'rgba(0,0,0,0.06)';
+// const shade = 'rgba(0,0,0,0.06)';
 
 // ---------------------------------------------------------------------------
 // CAMISETA

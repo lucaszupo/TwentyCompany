@@ -15,7 +15,7 @@ const PARCELAS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 export default function CheckoutModal({ open, onClose }: Props) {
   const { cart, totalPrice, clearCart } = useCart();
   const [step, setStep] = useState<1 | 2 | 3>(1);
-  const [payMethod, setPayMethod] = useState<PaymentMethod>('cartão');
+  const [payMethod, setPayMethod] = useState<PaymentMethod>('cartao');
   const [parcela, setParcela] = useState(1);
   const [copied, setCopied] = useState(false);
   const [orderNum, setOrderNum] = useState('');
@@ -204,7 +204,7 @@ export default function CheckoutModal({ open, onClose }: Props) {
                     ))}
                   </div>
 
-                  {payMethod === 'cartão' && (
+                  {payMethod === 'cartao' && (
                     <div className="animate-in fade-in duration-200">
                       <div className="mb-4">
                         <Field label="Número do Cartão" placeholder="0000 0000 0000 0000" onChange={() => {}} format={formatCard} />
