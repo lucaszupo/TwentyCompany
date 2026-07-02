@@ -5,15 +5,15 @@ import Toast from '@/components/Toast';
 import { ShoppingBag } from 'lucide-react';
 
 const PRODUCTS = [
-  { id: 1, name: 'Organic Cotton Oversized Tee', price: 149, image: 'TwentyCompany/images/prod-1.jpg', category: 'men' as const, color: '#0a0a0a', colorName: 'Preto' },
-  { id: 2, name: 'Heavyweight Logo Hoodie', price: 289, image: '/images/prod-2.jpg', category: 'men' as const, color: '#0a0a0a', colorName: 'Preto' },
-  { id: 3, name: 'Relaxed Fit Sweatpants', price: 229, image: '/images/prod-3.jpg', category: 'men' as const, color: '#808080', colorName: 'Cinza' },
-  { id: 4, name: 'Minimalist Backpack', price: 349, image: '/images/prod-4.jpg', category: 'accessories' as const, color: '#0a0a0a', colorName: 'Preto' },
-  { id: 5, name: 'Structured Cap', price: 129, image: '/images/prod-5.jpg', category: 'accessories' as const, color: '#c8b89a', colorName: 'Areia' },
-  { id: 6, name: 'Premium Socks Set', price: 89, image: '/images/prod-6.jpg', category: 'accessories' as const, color: '#ffffff', colorName: 'Branco' },
-  { id: 7, name: 'Oversized Tee', price: 149, image: '/images/prod-7.jpg', category: 'men' as const, color: '#1a472a', colorName: 'Verde' },
-  { id: 8, name: 'Logo Hoodie', price: 289, image: '/images/prod-8.jpg', category: 'women' as const, color: '#f5f5f0', colorName: 'Off-White' },
-  { id: 9, name: 'Essential Tank', price: 119, image: '/images/prod-9.jpg', category: 'men' as const, color: '#0a0a0a', colorName: 'Preto' },
+  { id: 1, name: 'Organic Cotton Oversized Tee', price: 149, image: '/TwentyCompany/images/prod-1.jpg', category: 'men' as const, color: '#0a0a0a', colorName: 'Preto' },
+  { id: 2, name: 'Heavyweight Logo Hoodie', price: 289, image: '/TwentyCompany/images/prod-2.jpg', category: 'men' as const, color: '#0a0a0a', colorName: 'Preto' },
+  { id: 3, name: 'Relaxed Fit Sweatpants', price: 229, image: '/TwentyCompany/images/prod-3.jpg', category: 'men' as const, color: '#808080', colorName: 'Cinza' },
+  { id: 4, name: 'Minimalist Backpack', price: 349, image: '/TwentyCompany/images/prod-4.jpg', category: 'accessories' as const, color: '#0a0a0a', colorName: 'Preto' },
+  { id: 5, name: 'Structured Cap', price: 129, image: '/TwentyCompany/images/prod-5.jpg', category: 'accessories' as const, color: '#c8b89a', colorName: 'Areia' },
+  { id: 6, name: 'Premium Socks Set', price: 89, image: '/TwentyCompany/images/prod-6.jpg', category: 'accessories' as const, color: '#ffffff', colorName: 'Branco' },
+  { id: 7, name: 'Oversized Tee', price: 149, image: '/TwentyCompany/images/prod-7.jpg', category: 'men' as const, color: '#1a472a', colorName: 'Verde' },
+  { id: 8, name: 'Logo Hoodie', price: 289, image: '/TwentyCompany/images/prod-8.jpg', category: 'women' as const, color: '#f5f5f0', colorName: 'Off-White' },
+  { id: 9, name: 'Essential Tank', price: 119, image: '/TwentyCompany/images/prod-9.jpg', category: 'men' as const, color: '#0a0a0a', colorName: 'Preto' },
 ];
 
 const CATEGORIES = ['all', 'men', 'women', 'accessories'] as const;
